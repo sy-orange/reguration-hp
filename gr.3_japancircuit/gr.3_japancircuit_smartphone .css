@@ -1,0 +1,178 @@
+.content {
+    width: 80%;
+    background-color: #F8F8F8;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 0.6em;
+}
+
+.main_gr3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gr3_plan {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main_gr3_image img{
+    width: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 0.2em;
+}
+
+table tr{
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+}
+
+table tr:hover{
+    background-color: #d4f0fd;
+}
+
+table th,table td{
+    text-align: center;
+    width: 25%;
+    padding: 15px 0;
+}
+
+table td.icon{
+    background-size: 20px;
+    background-position: left 5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+table td.icon.ap{
+    background-image: url(../images/ap_logo.jpg)
+}
+
+table td.icon.fuji{
+    background-image: url(../images/fuji_logo.jpg)
+}
+
+table td.icon.suzuka{
+    background-image: url(../images/suzuka_logo.jpg)
+}
+
+.media {
+    margin: 50px 0 auto;
+    text-align: center;
+}
+
+.media-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.corse-logo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.suzuka-content{
+    width: 30%;
+    text-align: center;
+}
+
+.suzuka-content img {
+    width: 80%;
+    display: block; 
+    margin: 5px auto;
+}
+.fuji-content {
+    width: 30%;
+    text-align: center;
+}
+
+.fuji-content img {
+    width: 80%;
+    display: block; 
+    margin: 5px auto;
+}
+
+.ap-content {
+    width: 30%;
+    text-align: center;
+}
+
+.ap-content img {
+    width: 80%;
+    display: block; 
+    margin: 5px auto;
+}
+
+.suzuka-button {
+    display: inline-block;
+    padding: .6em 2em;
+    margin: 0 0 1em;
+    background-color: #067B6A;
+    color: #fff;
+    font-size: 0.5em;
+    cursor: pointer;
+}
+.suzuka-button:hover {
+    opacity: 0.6;
+}
+
+.suzuka-button a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.fuji-button {
+    display: inline-block;
+    padding: .6em 2em;
+    margin: 0 0 1em;
+    background-color: #E60012;
+    color: #fff;
+    font-size: 0.5em;
+    cursor: pointer;
+}
+.fuji-button:hover {
+    opacity: 0.6;
+}
+
+.fuji-button a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.ap-button {
+    display: inline-block;
+    padding: .6em 2em;
+    margin: 0 0 1em;
+    background-color: #43AF35;
+    color: #fff;
+    font-size: 0.5em;
+    cursor: pointer;
+}
+.ap-button:hover {
+    opacity: 0.6;
+}
+
+.ap-button a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}

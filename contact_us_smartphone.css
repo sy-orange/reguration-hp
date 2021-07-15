@@ -1,0 +1,135 @@
+.content {
+    width: 80%;
+    background-color: #F8F8F8;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 0.8em;
+}
+
+.profile {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.profile-list ul {
+    padding-left: 10px;
+}
+
+.profile-list li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 0.5em;
+}
+
+.profile-name-image {
+    width: 100%;
+    text-align: center;
+}
+
+.profile-image {
+    width: 80%;
+    height: 80%;
+}
+
+.media {
+    margin: 10 0 auto;
+    border-top: solid 2px #F1F1F1;
+}
+
+.media-content {
+}
+
+.twitter-content{
+    width: 100%;
+    text-align: center;
+}
+.blog-content {
+    width: 100%;
+    text-align: center;
+    border-top:solid 2px #F1F1F1 ;
+    
+}
+.youtube-content {
+    width: 100%;
+    text-align: center;
+    border-top:solid 2px #F1F1F1 ;
+}
+.discription {
+    height: auto;
+    text-align: left;
+    margin: 20px;
+    font-size: 0.2em;
+}
+
+.media-image-content {
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.media-image {
+    width: 100%;
+    height: auto;
+    line-height: 200px;
+}
+.twitter {
+    display: inline-block;
+    padding: .6em 2em;
+    margin: 0 0 1em;
+    background-color: #1BA1F2;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+.twitter:hover {
+    opacity: .6;
+}
+
+.twitter a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.blog {
+    display: inline-block;
+    padding: .6em 2em;
+    margin: 0 0 1em;
+    background-color: #E44D26;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+.blog:hover {
+    opacity: .6;
+}
+
+.blog a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.youtube {
+    display: inline-block;
+    padding: .6em 2em;
+    margin: 0 0 1em;
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+.youtube:hover {
+    opacity: .6;
+}
+
+.youtube a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
